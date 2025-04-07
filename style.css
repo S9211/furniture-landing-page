@@ -134,7 +134,7 @@ img {
 
   .shipping-card{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 20px;
     align-items: center;
   }
@@ -196,7 +196,6 @@ img {
  .beauty{
     background-color: #DFE9F4;
     padding: 100px 100px 0 100px; 
-
  }
 
  .beauty-container{
@@ -400,6 +399,18 @@ img {
         right: 100px;
       }
 }
+  @media (max-width: 1244px){
+    .footer-container{
+        gap: 20px;  
+    }
+    .footer-beauty{
+      max-width: 500px;
+    }
+
+    .f-img{
+      max-width: 200px;
+    }
+}
 
 @media (max-width: 1190px){
     .hero-container{
@@ -431,6 +442,39 @@ img {
         width: 129px;
         height: 50px;
       }
+
+      /* shipping  */
+
+      .shipping{
+        padding: 50px;
+        border-bottom: 1px solid #F2F5FF;
+      }
+    
+      .shipping-container{
+        /* display: flex;
+        flex-wrap: wrap; */
+        gap: 20px;
+      }
+    
+      .shipping-card{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    
+      .shipping-heading{
+        font-size: 20px;
+      }
+    
+    
+      .logo{
+        width: 70px;
+      }
+
+    
 
       /* collection  */
     
@@ -537,21 +581,10 @@ img {
     text-align: center;
   }
 
-  .footer-beauty{
-    max-width: 100%;
-  }
-
-  .footer-container{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .footer-img{
-    display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    justify-content: center;
   }
-  
 
   }
 
